@@ -11,6 +11,7 @@
 		BE11B558275C940700F3B755 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE11B557275C940700F3B755 /* ContentView.swift */; };
 		BE11B55A275C940900F3B755 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE11B559275C940900F3B755 /* Assets.xcassets */; };
 		BE11B55D275C940900F3B755 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE11B55C275C940900F3B755 /* Preview Assets.xcassets */; };
+		BE11B564275C942500F3B755 /* PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE11B563275C942500F3B755 /* PhotoPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		BE11B557275C940700F3B755 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BE11B559275C940900F3B755 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE11B55C275C940900F3B755 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE11B563275C942500F3B755 /* PhotoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				BE11B555275C940700F3B755 /* PhotoPickerSwiftUIApp.swift */,
+				BE11B563275C942500F3B755 /* PhotoPicker.swift */,
 				BE11B557275C940700F3B755 /* ContentView.swift */,
 				BE11B559275C940900F3B755 /* Assets.xcassets */,
 				BE11B55B275C940900F3B755 /* Preview Content */,
@@ -139,6 +142,7 @@
 			files = (
 				BE11B558275C940700F3B755 /* ContentView.swift in Sources */,
 				BE11B556275C940700F3B755 /* PhotoPickerSwiftUIApp.swift in Sources */,
+				BE11B564275C942500F3B755 /* PhotoPicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +276,7 @@
 				DEVELOPMENT_TEAM = UAF5HBHXWW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires access to the camera";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +306,7 @@
 				DEVELOPMENT_TEAM = UAF5HBHXWW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires access to the camera";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
